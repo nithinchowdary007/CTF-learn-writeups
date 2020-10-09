@@ -1,0 +1,8 @@
+use pngcheck PurpleThing.jpeg => we'll know that there was data following the IEND chunk
+use formost PurpleThing.jpeg
+WE'll get the hidden png which contains flag
+[---*OR*---]
+use binwalk --dd=".*" PurpleThing.png
+we'll get the hidden png which contains flag
+
+ABCTF{b1nw4lk_is_us3ful}
