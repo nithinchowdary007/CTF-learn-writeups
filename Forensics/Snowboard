@@ -1,0 +1,17 @@
+convert .jpg to .png
+
+we'll find a flag CTFlearn{CTFIsEasy!!!}
+
+but its incorrect :(
+
+nxt line we can find meta data
+
+Q1RGbGVhcm57U2tpQmFuZmZ9Cg==
+
+decode it 
+
+ echo Q1RGbGVhcm57U2tpQmFuZmZ9Cg== | base64 -d
+
+we'll get the flag :) 
+
+CTFlearn{SkiBanff}
