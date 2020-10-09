@@ -1,0 +1,17 @@
+use foremost Tux.jpg
+well get a zip file with secured file in it
+
+use strings Tux.jpg
+we'll can find 
+
+'ICAgICAgUGFzc3dvcmQ6IExpbnV4MTIzNDUK' //which is a base 64
+
+use echo ICAgICAgUGFzc3dvcmQ6IExpbnV4MTIzNDUK | base64 -d
+we'll get 
+
+'password: Linux12345'
+
+This is the password for secured file
+then we get flag..
+
+CTFlearn{Linux_Is_Awesome}
