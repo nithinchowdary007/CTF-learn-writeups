@@ -1,0 +1,8 @@
+change the file name(I changed to comp.jpg)
+use exiftool
+
+$ exiftool comp.jpg
+
+we can find flag as owners name
+
+flag{3l1t3_3x1f_4uth0r1ty_dud3br0}
