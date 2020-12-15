@@ -1,2 +1,5 @@
 Its a command-line application for reading, writing and editing meta information in a wide variety of files.
 ExifTool supports many different metadata formats including EXIF, GPS, IPTC, XMP, JFIF, GeoTIFF, ICC Profile, Photoshop IRB, FlashPix, AFCP and ID3, Lyrics3,
+
+Matadata:
+Metadata summarizes basic information about data, which can make finding and working with particular instances of data easier.
